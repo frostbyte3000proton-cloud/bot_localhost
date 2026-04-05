@@ -1,3 +1,21 @@
+# Dependências
 node_modules/
+
+# Sessões do WhatsApp
 .wwebjs_cache/
+.wwebjs_auth/
 *.data.json
+session.json
+auth_info.json
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Opcional: se quiser ignorar o lockfile (não recomendado)
+# package-lock.json
